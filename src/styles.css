@@ -3,13 +3,14 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: #ececec;
 }
 
 @font-face {
 
     font-family: 'AlexBrush-Regular';
 
-    src: url("/assets/fonts/Photograph\ Signature.ttf");
+    src: url("/assets/fonts/Photograph\Signature.ttf");
 
 }
 

@@ -123,6 +123,7 @@ button {
 
 button.accept {
     border-right: solid 1px #a39489;
+    width: 100%;
 }
 
 button:hover {

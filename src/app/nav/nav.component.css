@@ -29,7 +29,7 @@ nav svg {
 
 nav ul {
     text-align: center;
-    font-family: 'josefin sans';
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 300;
     font-size: 30px;
     list-style: none;
@@ -44,10 +44,11 @@ nav ul li:hover {
     font-weight: 500;
     font-style: italic;
     letter-spacing: 4px;
+    background-color: white;
 }
 
 nav p {
-    font-size: 13px;
+    font-size: 10px;
     font-family: 'josefin sans';
 }
 
@@ -73,13 +74,15 @@ nav p span {
         font-size: 25px;
         line-height: 60px;
         vertical-align: middle;
+        background-color: white;
     }
     nav svg {
         display: inline;
         float: right;
-        fill: #ceb291;
+        fill: #030058;
         margin-top: 30px;
         transform: translateY(-50%);
+        background-color: white;
     }
     nav ul {
         display: none;
@@ -94,6 +97,7 @@ nav p span {
     }
     nav ul.show {
         display: flex;
+        background: #fff;
     }
     nav p {
         display: none;
@@ -107,5 +111,6 @@ nav p span {
     }
     nav p.show {
         display: block;
+        background: #fff;
     }
 }
